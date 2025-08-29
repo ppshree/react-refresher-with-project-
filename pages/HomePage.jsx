@@ -1,8 +1,10 @@
-import React from "react";
 import "./HomePage.css";
+import Header from "./Header";
 
 const HomePage = () => {
-  return (
+  return (<>
+  <Header/>
+  
     <div className="home-container">
       {/* Hero Section */}
       <section className="hero">
@@ -42,6 +44,7 @@ const HomePage = () => {
         </p>
       </section>
     </div>
+    </>
   );
 };
 
